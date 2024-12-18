@@ -1,15 +1,18 @@
 
 @media screen and (max-width: 768px) {
-  h2{
+  #parent h2{
       font-size: 30px;
   }
-  p{
+  #parent p{
       font-size: 25px;
   }
 
   #parent {
     flex-direction: column; /* これにより子要素が縦に並ぶ */
     align-items: flex-start; /* 必要に応じて子要素の揃え方を調整 */
+}
+  .contents{ 
+      align-items: center;
 }
 }
 
@@ -26,13 +29,13 @@ body{
 }
 
 p{
-  margin: 0px 0px 0px 0px;
-  size: 20px;
+  margin: 0px;
+  font-size: 20px;
 }
 
 a{
-  size: 20px;
-  font-size: rgb(255, 255, 255);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
 }
 
 a:visited {
