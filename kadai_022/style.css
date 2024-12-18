@@ -1,0 +1,99 @@
+
+@media screen and (max-width: 768px) {
+  h2{
+      font-size: 30px;
+  }
+  p{
+      font-size: 25px;
+  }
+  .contents{
+      display: block;
+      flex-basis: 100%;
+      margin: 0 0 20px 0;
+  }
+
+  #parent {
+    flex-direction: column; /* これにより子要素が縦に並ぶ */
+    align-items: flex-start; /* 必要に応じて子要素の揃え方を調整 */
+}
+}
+
+h1{
+  margin: 0px 0px 0px 0px;  
+  margin-bottom: 20px;
+  background-color:  rgb(244, 79, 79);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+body{
+  margin: 0px 0px 0px 0px;
+}
+
+p{
+  margin: 0px 0px 0px 0px;
+  size: 20px;
+}
+
+a{
+  size: 20px;
+  font-size: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: rgb(193, 234, 251);
+}
+
+a:hover {
+  color: rgb(245, 178, 168);
+}
+
+
+div {
+  text-align: center;
+}
+
+main {
+  margin: 10px;
+}
+
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contents p:nth-of-type(2)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
+}
+
+.contents {
+  border: solid 3px rgb(238, 204, 204);
+  flex-basis: 25%;
+  padding: 10px 15px;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+h2 {
+  font-size: 25px;
+  text-decoration: underline dotted 3px rgb(236, 122, 122);
+}
+
+h2::before {
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+
+footer{
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+
+.contents img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
