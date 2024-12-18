@@ -6,11 +6,6 @@
   p{
       font-size: 25px;
   }
-  .contents{
-      display: block;
-      flex-basis: 100%;
-      margin: 0 0 20px 0;
-  }
 
   #parent {
     flex-direction: column; /* これにより子要素が縦に並ぶ */
